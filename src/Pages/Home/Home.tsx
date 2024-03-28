@@ -30,16 +30,15 @@ const Home = () => {
               RESUME
             </a>
           </div>
-          <img src="/public/passport.jpg" alt="passport" />
-          {/* <img
-            src="/passport.jpg"
+          <img
+            src="/DSC_1480.jpg"
             alt="passport"
             className="w-[25rem] h-[25rem] rounded-[50%]"
-          /> */}
+          />
         </section>
         <section className="mt-[14.25rem] mb-[4.4rem] lg:hidden flex flex-col items-center justify-center gap-[2rem]">
           <img
-            src="/passport.jpg"
+            src="/DSC_1480.jpg"
             alt="passport"
             className="rounded-[50%] w-[15rem] h-[15rem]"
           />
