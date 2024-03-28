@@ -30,23 +30,23 @@ const Home = () => {
               RESUME
             </a>
           </div>
-
-          <img
-            src="/public/passport.jpg"
+          <img src="/public/passport.jpg" alt="passport" />
+          {/* <img
+            src="/passport.jpg"
             alt="passport"
             className="w-[25rem] h-[25rem] rounded-[50%]"
-          />
+          /> */}
         </section>
         <section className="mt-[14.25rem] mb-[4.4rem] lg:hidden flex flex-col items-center justify-center gap-[2rem]">
           <img
-            src="/public/passport.jpg"
+            src="/passport.jpg"
             alt="passport"
             className="rounded-[50%] w-[15rem] h-[15rem]"
           />
           <div>
             <h1 className="text-[1.9rem] font-bold mb-[2.37rem] text-center">
-              Hi, I am <span className="text-[#2978b5]">Kafilat Adewumi,</span>{" "}
-              A Frontend Developer.
+              Hi, I am <span className="text-[#2978b5]">Kafilat Adewumi,</span>
+              <br /> A Frontend Developer.
             </h1>
             <p className="w-[20] mb-[2.37rem] text-center">
               Highly motivated and results-driven Frontend Developer with 2
