@@ -72,11 +72,17 @@ const Home = () => {
             PROJECTS
           </h2>
           <div className="flex lg:flex-row flex-col flex-wrap items-center justify-center gap-[1.5rem]">
-            <div className="w-[25rem] h-[20rem] border-2 px-[1rem] py-[1rem] flex items-center justify-center flex-col gap-[1rem]">
+            <div className="lg:w-[25rem] max-w-max h-[20rem] border-2 px-[1rem] py-[1rem] flex items-center justify-center flex-col gap-[1rem]">
               <h2 className="font-bold text-[1.2rem]">Shoppia Project</h2>
               <p>
                 Participated in building an e-commerce website tailored to
                 campus needs and shopping experience while learning at ALX.
+              </p>
+              <p className="flex gap-[0.5rem] font-medium">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>TailwindCSS</span>
+                <span>Reactjs</span>
               </p>
               <a
                 href="https://shoppia-online.netlify.app/"
@@ -85,11 +91,17 @@ const Home = () => {
                 Click Me
               </a>
             </div>
-            <div className="w-[25rem]  h-[20rem] px-[1rem] py-[1rem] border-2 items-center flex flex-col gap-[1rem] justify-center">
+            <div className="lg:w-[25rem] max-w-max h-[20rem] px-[1rem] py-[1rem] border-2 items-center flex flex-col gap-[1rem] justify-center">
               <h2 className="font-bold text-[1.2rem]">
                 Loyal base landing page
               </h2>
               <p>An implementation of the Loyalbase landing page on figma.</p>
+              <p className="flex gap-[0.5rem] font-medium">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>TailwindCSS</span>
+                <span>Reactjs</span>
+              </p>
               <a
                 href=" https://loyal-baze.netlify.app/ "
                 className="text-[#2978b5] border-2 max-w-max border-[#2978b5] rounded-[5px] px-[1.25rem] py-[0.5rem]"
@@ -97,9 +109,15 @@ const Home = () => {
                 Click Me
               </a>
             </div>
-            <div className="w-[25rem] h-[20rem] border-2 items-center flex flex-col gap-[1rem] justify-center px-[1rem] py-[1rem]">
+            <div className="lg:w-[25rem] max-w-max h-[20rem] border-2 items-center flex flex-col gap-[1rem] justify-center px-[1rem] py-[1rem]">
               <h2 className="font-bold text-[1.2rem]">Development Company</h2>
               <p>An implementation of a Figma file for practice.</p>
+              <p className="flex gap-[0.5rem] font-medium">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>TailwindCSS</span>
+                <span>Reactjs</span>
+              </p>
               <a
                 href=" https://development-company.netlify.app/"
                 className="text-[#2978b5] border-2 max-w-max border-[#2978b5] rounded-[5px] px-[1.25rem] py-[0.5rem]"
@@ -107,10 +125,16 @@ const Home = () => {
                 Click Me
               </a>
             </div>
-            <div className="w-[25rem]  h-[20rem] border-2 items-center flex flex-col gap-[1rem] justify-center px-[1rem] py-[1rem]">
+            <div className="lg:w-[25rem] max-w-max h-[20rem] border-2 items-center flex flex-col gap-[1rem] justify-center px-[1rem] py-[1rem]">
               <h2 className="font-bold text-[1.2rem]">Fake Store</h2>
               <p>
                 Fetched an e-commerce API from Fake Store using Axios Library.
+              </p>
+              <p className="flex gap-[0.5rem] font-medium">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>TailwindCSS</span>
+                <span>Reactjs</span>
               </p>
               <a
                 href="https://products-api-ui.netlify.app/"
