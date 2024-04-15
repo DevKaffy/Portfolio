@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  // const [showNavbar, setShowNavbar] = false
   return (
-    <section>
-      <div className="lg:flex hidden justify-between items-center mx-[3.75rem]">
+    <nav>
+      <div className="lg:flex hidden justify-between items-center mx-[3.75rem] mt-[4rem]">
         <Link to="/" className="text-[#2978b5] text-[1.5rem] font-extrabold">
           KA.
         </Link>
@@ -20,7 +21,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div></div>
-    </section>
+    </nav>
   );
 };
 

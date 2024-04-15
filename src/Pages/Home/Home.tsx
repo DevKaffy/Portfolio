@@ -71,7 +71,7 @@ const Home = () => {
           <h2 className="text-center font-bold text-[2rem] mb-[2rem]">
             PROJECTS
           </h2>
-          <div className="flex lg:flex-row flex-col flex-wrap items-center justify-center gap-[1.5rem]">
+          <div className="flex lg:flex-row flex-col flex-wrap items-center rounded-[5px] gap-[1.5rem]">
             <div className="lg:w-[25rem] max-w-max h-[20rem] border-2 px-[1rem] py-[1rem] flex items-center justify-center flex-col gap-[1rem]">
               <h2 className="font-bold text-[1.2rem]">Shoppia Project</h2>
               <p>
@@ -84,14 +84,20 @@ const Home = () => {
                 <span>TailwindCSS</span>
                 <span>Reactjs</span>
               </p>
-              <a
-                href="https://shoppia-online.netlify.app/"
-                className="text-[#2978b5] border-2 max-w-max border-[#2978b5] rounded-[5px] px-[1.25rem] py-[0.5rem]"
-              >
-                Click Me
-              </a>
+              <div className="flex items-center gap-[1rem]">
+                <a href="https://github.com/DevKaffy/Shoppia-project">
+                  <img src="/github.svg" alt="" className="w-[2rem] h-[2rem]" />
+                </a>
+                <a href="https://shoppia-online.netlify.app/">
+                  <img
+                    src="/public/arrow-right-up-line.svg"
+                    alt="arrow-up"
+                    className="w-[2rem] h-[2rem]"
+                  />
+                </a>
+              </div>
             </div>
-            <div className="lg:w-[25rem] max-w-max h-[20rem] px-[1rem] py-[1rem] border-2 items-center flex flex-col gap-[1rem] justify-center">
+            <div className="lg:w-[25rem] max-w-max h-[20rem] px-[1rem] py-[1rem] border-2 items-center flex flex-col gap-[1rem] justify-center rounded-[5px]">
               <h2 className="font-bold text-[1.2rem]">
                 Loyal base landing page
               </h2>
@@ -102,14 +108,20 @@ const Home = () => {
                 <span>TailwindCSS</span>
                 <span>Reactjs</span>
               </p>
-              <a
-                href=" https://loyal-baze.netlify.app/ "
-                className="text-[#2978b5] border-2 max-w-max border-[#2978b5] rounded-[5px] px-[1.25rem] py-[0.5rem]"
-              >
-                Click Me
-              </a>
+              <div className="flex items-center gap-[1rem]">
+                <a href="https://github.com/DevKaffy/loyal-base">
+                  <img src="/github.svg" alt="" className="w-[2rem] h-[2rem]" />
+                </a>
+                <a href=" https://loyal-baze.netlify.app/ ">
+                  <img
+                    src="/public/arrow-right-up-line.svg"
+                    alt="arrow-up"
+                    className="w-[2rem] h-[2rem]"
+                  />
+                </a>
+              </div>
             </div>
-            <div className="lg:w-[25rem] max-w-max h-[20rem] border-2 items-center flex flex-col gap-[1rem] justify-center px-[1rem] py-[1rem]">
+            <div className="lg:w-[25rem] max-w-max h-[20rem] border-2 items-center flex flex-col gap-[1rem] justify-center px-[1rem] py-[1rem] rounded-[5px]">
               <h2 className="font-bold text-[1.2rem]">Development Company</h2>
               <p>An implementation of a Figma file for practice.</p>
               <p className="flex gap-[0.5rem] font-medium">
@@ -118,14 +130,20 @@ const Home = () => {
                 <span>TailwindCSS</span>
                 <span>Reactjs</span>
               </p>
-              <a
-                href=" https://development-company.netlify.app/"
-                className="text-[#2978b5] border-2 max-w-max border-[#2978b5] rounded-[5px] px-[1.25rem] py-[0.5rem]"
-              >
-                Click Me
-              </a>
+              <div className="flex items-center gap-[1rem]">
+                <a href="https://github.com/DevKaffy/ReactProject-Company-Website?tab=readme-ov-file">
+                  <img src="/github.svg" alt="" className="w-[2rem] h-[2rem]" />
+                </a>
+                <a href=" https://development-company.netlify.app/">
+                  <img
+                    src="/public/arrow-right-up-line.svg"
+                    alt="arrow-up"
+                    className="w-[2rem] h-[2rem]"
+                  />
+                </a>
+              </div>
             </div>
-            <div className="lg:w-[25rem] max-w-max h-[20rem] border-2 items-center flex flex-col gap-[1rem] justify-center px-[1rem] py-[1rem]">
+            <div className="lg:w-[25rem] max-w-max h-[20rem] border-2 items-center flex flex-col gap-[1rem] justify-center px-[1rem] py-[1rem] rounded-[5px]">
               <h2 className="font-bold text-[1.2rem]">Fake Store</h2>
               <p>
                 Fetched an e-commerce API from Fake Store using Axios Library.
@@ -136,12 +154,22 @@ const Home = () => {
                 <span>TailwindCSS</span>
                 <span>Reactjs</span>
               </p>
-              <a
-                href="https://products-api-ui.netlify.app/"
-                className="text-[#2978b5] border-2 max-w-max border-[#2978b5] rounded-[5px] px-[1.25rem] py-[0.5rem]"
-              >
-                Click Me
-              </a>
+              <div className="flex gap-[1rem] items-center">
+                <a href="https://github.com/DevKaffy/products-api">
+                  <img
+                    src="/github.svg"
+                    alt="products-api"
+                    className="w-[2rem] h-[2rem]"
+                  />
+                </a>
+                <a href="https://products-api-ui.netlify.app/">
+                  <img
+                    src="/public/arrow-right-up-line.svg"
+                    alt="arrow-up"
+                    className="w-[2rem] h-[2rem]"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </section>
